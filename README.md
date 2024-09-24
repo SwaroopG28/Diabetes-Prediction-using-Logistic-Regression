@@ -13,15 +13,14 @@ This project aims to predict whether a patient has diabetes based on medical dat
 Training the Model:
 You can use the Diabetes.ipynb notebook to understand the data, preprocess it, and train a Logistic Regression model. The notebook contains detailed steps for:
 
-Data cleaning and preprocessing
-Splitting the data into training and testing sets
-Training the Logistic Regression model
-Evaluating the model's accuracy and performance
-Making Predictions:
-The Predict.py script is used to load the saved model (Diabetesmodel.pkl) and make predictions on new patient data. Ensure the model file is in the same directory as Predict.py.
+**Data cleaning and preprocessing
+**Splitting the data into training and testing sets
+**Training the Logistic Regression model
+**Evaluating the model's accuracy and performance
+**Making Predictions:The Predict.py script is used to load the saved model (Diabetesmodel.pkl) and make predictions on new patient data. Ensure the model file is in the same directory as Predict.py.
 
 
-Model
+##Model
 The model used in this project is Logistic Regression, a simple yet effective classifier that predicts the probability of a binary outcome (diabetes or not) based on the input features like glucose levels, BMI, age, and insulin levels.
 
 
